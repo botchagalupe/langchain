@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # Configuration for Python packages (using pip)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    version: "3"
+   #  update-python-version: true
+
